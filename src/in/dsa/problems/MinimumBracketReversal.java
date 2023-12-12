@@ -14,7 +14,7 @@ public class MinimumBracketReversal {
 			if(input.charAt(i) == '{'){
 				stack.push(input.charAt(i));
 			}
-			else{
+			else{ //if stack has a closing bracket -> '}'
 				if(!stack.isEmpty()){
 					if(stack.peek() == '{') stack.pop();
 					else stack.push(input.charAt(i));
