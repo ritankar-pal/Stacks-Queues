@@ -6,7 +6,7 @@ public class CustomCircularQueue {
 	int end = 0;
 	int front = 0;
 	int size = 0;
-	private static final int DEFAULT_SIZE = 10; 
+	private static final int DEFAULT_SIZE = 10;   
 
 	public CustomCircularQueue() {
 		this(DEFAULT_SIZE);
