@@ -1,5 +1,7 @@
 package in.dsa.custom;
 
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class CustomQueueUsingLinkedList {	
 
@@ -14,7 +16,6 @@ public class CustomQueueUsingLinkedList {
 		this.tail = null; 
 		this.size = 0;
 	}
-
 
 
 	/*----------------- Public Functions of Stack -----------------*/
@@ -35,7 +36,7 @@ public class CustomQueueUsingLinkedList {
 	public void enqueue(int data) {
 		//Implement the enqueue(element) function
 		Node node = new Node(data);
-
+		
 		if(size == 0){
 			head = node; 
 			tail = node;
