@@ -3,7 +3,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 
-public class QueueUsingStack {
+public class StackUsingQueue {
 	
 	private static class Stack{
 		
